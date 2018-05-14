@@ -1,5 +1,5 @@
-FROM node:7.2.1-wheezy
-MAINTAINER Mike Christof <mhristof@gmail.com>
+FROM node:8.11.1-alpine
+MAINTAINER Automation Team
 
 RUN npm install grunt --save-dev
 ENV PATH="/node_modules/grunt/bin/:${PATH}"
