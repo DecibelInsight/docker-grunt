@@ -1,4 +1,4 @@
-FROM node:8.11.1
+FROM node:12.6.0
 MAINTAINER Automation Team
 
 RUN npm install grunt --save-dev
